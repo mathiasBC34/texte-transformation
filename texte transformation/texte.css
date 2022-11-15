@@ -1,0 +1,66 @@
+h1 {
+    text-decoration: overline;
+    color: blue;
+}
+
+/**/
+#yo {
+    color: blue;
+}
+
+.rouge {
+    color: red;
+}
+
+
+/* ICI ajouter le style */
+h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#division h1 {
+    width: 200px;
+    background-color: #9cf;
+}
+
+#division>h1 {
+    width: 200px;
+    background-color: #9cf;
+}
+
+#division+h1 {
+    width: 200px;
+    background-color: #9cf;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+}
+
+.red {
+    color: green;
+    background-color: red;
+    width: 200px;
+}
+
+.blue {
+    background-color: aqua;
+}
+
+.green {
+    background-color: yellow;
+}
+
+html, body{
+    letter-spacing: 1px;
+    direction:ltr;
+    text-transform: capitalize;
+}
